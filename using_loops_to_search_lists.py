@@ -10,8 +10,8 @@ def find_user_by_user_id( list, user_id ):
     found_user = None
     for user in list:
         if user["user_id"] == user_id:
-            found_user = user["first name"]
-    print(found_user)
+            found_user = user["first_name"]
+    return found_user
     
 
-    find_user_by_user_id(users, 4)
+print(find_user_by_user_id(users, 4))
